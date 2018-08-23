@@ -1,0 +1,38 @@
+.ZGYTxc { // chat background
+    background-color: transparent;
+    background-image: none;
+}
+
+.message-in ._3zb-j { // incoming bubble
+    background-color: $custom-incoming-light;
+    color: $custom-incoming-dark;
+}
+
+.message-out ._3zb-j { // outgoing bubble
+    background-color: $custom-outgoing-green-light;
+    color: $custom-outgoing-green-dark;
+}
+
+._32uRw svg path, ._1VfKB svg path { // checkmarks
+    fill: $custom-outgoing-green-dark;
+    fill-opacity: 1;
+}
+
+._2nmDZ { // backdrop
+    background-color: white;
+}
+
+span[data-icon="back-blue"] svg path,
+._1aTxu span[data-icon="back-light"] svg path,
+span[data-icon="send"] svg path { // back arrow
+    fill: $custom-bright-green;
+    fill-opacity: 1;
+}
+
+._1xGbt {
+    color: $custom-bright-green;
+}
+
+.OUeyt {
+    background-color: $custom-bright-green;
+}
